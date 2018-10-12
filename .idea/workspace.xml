@@ -1,0 +1,668 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="1733696e-7fae-4179-8758-a2734b8b243e" name="Default" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1972">
+              <caret line="116" column="29" selection-start-line="116" selection-start-column="29" selection-end-line="116" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="editor.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/js/editor.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="476">
+              <caret line="334" column="37" lean-forward="true" selection-start-line="334" selection-start-column="37" selection-end-line="334" selection-end-column="37" />
+              <folding>
+                <element signature="n#!!doc;n#constructor#0;n#Editor#0" />
+                <element signature="n#!!block;n#constructor#0;n#Editor#0" />
+                <element signature="e#325#416#0" />
+                <element signature="e#473#534#0" />
+                <element signature="e#574#686#0" />
+                <element signature="e#735#798#0" />
+                <element signature="e#864#979#0" />
+                <element signature="e#1020#1084#0" />
+                <element signature="e#1152#1279#0" />
+                <element signature="e#1348#1421#0" />
+                <element signature="n#!!doc;n#createEditAlbum#0;n#Editor#0" />
+                <element signature="n#!!block;n#createEditAlbum#0;n#Editor#0" />
+                <element signature="n#!!doc;n#createSongURLAndNamesAssociativeArray#0;n#Editor#0" />
+                <element signature="n#!!block;n#createSongURLAndNamesAssociativeArray#0;n#Editor#0" />
+                <element signature="n#!!doc;n#validatePlayListNameAndImageURL#0;n#Editor#0" />
+                <element signature="n#!!block;n#validatePlayListNameAndImageURL#0;n#Editor#0" />
+                <element signature="n#!!doc;n#createSongsURLAndNames#0;n#Editor#0" />
+                <element signature="n#!!block;n#createSongsURLAndNames#0;n#Editor#0" />
+                <element signature="n#!!doc;n#validateInputName#0;n#Editor#0" />
+                <element signature="n#!!block;n#validateInputName#0;n#Editor#0" />
+                <element signature="n#!!doc;n#validateImageURL#0;n#Editor#0" />
+                <element signature="n#!!block;n#validateImageURL#0;n#Editor#0" />
+                <element signature="n#!!doc;n#validateMP3URL#0;n#Editor#0" />
+                <element signature="n#!!block;n#validateMP3URL#0;n#Editor#0" />
+                <element signature="n#!!doc;n#validateInputImageURL#0;n#Editor#0" />
+                <element signature="n#!!doc;n#checkAllSongURLAndNamesInputs#0;n#Editor#0" />
+                <element signature="n#!!block;n#checkAllSongURLAndNamesInputs#0;n#Editor#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>edit album id:</find>
+      <find>'error</find>
+      <find>modelAPI</find>
+      <find>dumpAlbum</find>
+      <find>checkAllSongURLAndNamesInputs</find>
+      <find>createSongsList</find>
+      <find>editAlbumModal</find>
+      <find>removeAlbum</find>
+      <find>TODO</find>
+      <find>modelAPI(this).getPlaylistSongs(selectedID);</find>
+      <find>fa-tra</find>
+      <find>fa-r</find>
+      <find>cleanFieldsAllSongURLAndNamesInputs</find>
+      <find>editAlbum</find>
+      <find>find</find>
+      <find>createEditAlbum</find>
+      <find>previewImageURL</find>
+      <find>validatePlayListNameAndImageURL</find>
+      <find>playerc</find>
+      <find>butto</find>
+      <find>loadSongListToPlayerAndPlaySong</find>
+      <find>getPlaylistSongs</find>
+      <find>createSongsURLAndNames</find>
+      <find>loadPlayer</find>
+      <find>var</find>
+      <find>this._audioPlayerID</find>
+      <find>validateInputImageURL</find>
+      <find>_audioPlayerEdit</find>
+      <find>Edit Playlist Songs</find>
+      <find>id</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/css/audioPlayer.css" />
+        <option value="$PROJECT_DIR$/css/circleTextAnimation.css" />
+        <option value="$PROJECT_DIR$/js/validation.js" />
+        <option value="$PROJECT_DIR$/js/script.js" />
+        <option value="$PROJECT_DIR$/js/validations.js" />
+        <option value="$PROJECT_DIR$/js/audioPlayer2.js" />
+        <option value="$PROJECT_DIR$/js/audioPlayer.js" />
+        <option value="$PROJECT_DIR$/js/album.js" />
+        <option value="$PROJECT_DIR$/js/player.js" />
+        <option value="$PROJECT_DIR$/js/view.js" />
+        <option value="$PROJECT_DIR$/js/model.js" />
+        <option value="$PROJECT_DIR$/js/controller.js" />
+        <option value="$PROJECT_DIR$/css/style.css" />
+        <option value="$PROJECT_DIR$/js/list.js" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/js/editor.js" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP XAMPP" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-10" />
+    <option name="y" value="-10" />
+    <option name="width" value="1938" />
+    <option name="height" value="1068" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="playlist" type="b2602c69:ProjectViewProjectNode" />
+              <item name="playlist" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="playlist" type="b2602c69:ProjectViewProjectNode" />
+              <item name="playlist" type="462c0819:PsiDirectoryNode" />
+              <item name="img" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\PhpstormProjects\playlist" />
+      <recent name="E:\PhpstormProjects\playlist\js" />
+      <recent name="E:\PhpstormProjects\playlist\img" />
+      <recent name="E:\PhpstormProjects\playlist\css" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\PhpstormProjects\playlist\img" />
+      <recent name="E:\PhpstormProjects\playlist" />
+      <recent name="E:\PhpstormProjects\playlist\js" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1733696e-7fae-4179-8758-a2734b8b243e" name="Default" comment="" />
+      <created>1523911027891</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1523911027891</updated>
+      <workItem from="1523911029633" duration="18996000" />
+      <workItem from="1524686704180" duration="11292000" />
+      <workItem from="1524759058802" duration="1173000" />
+      <workItem from="1524825198907" duration="6978000" />
+      <workItem from="1524842487169" duration="7142000" />
+      <workItem from="1524858691933" duration="27875000" />
+      <workItem from="1524892642535" duration="5563000" />
+      <workItem from="1524953138401" duration="13769000" />
+      <workItem from="1525014850732" duration="21601000" />
+      <workItem from="1525046993070" duration="8784000" />
+      <workItem from="1525104027160" duration="15192000" />
+      <workItem from="1525124786445" duration="1027000" />
+      <workItem from="1525137638281" duration="13776000" />
+      <workItem from="1525190291704" duration="19116000" />
+      <workItem from="1525220056549" duration="15755000" />
+      <workItem from="1525289241804" duration="1474000" />
+      <workItem from="1525342171212" duration="6410000" />
+      <workItem from="1525372155402" duration="8174000" />
+      <workItem from="1525388132483" duration="21056000" />
+      <workItem from="1525464045849" duration="18489000" />
+      <workItem from="1525534977801" duration="12387000" />
+      <workItem from="1525712194770" duration="482000" />
+      <workItem from="1525712920871" duration="1271000" />
+      <workItem from="1525714223906" duration="824000" />
+      <workItem from="1525715629304" duration="3213000" />
+      <workItem from="1525796603416" duration="47709000" />
+      <workItem from="1525854084323" duration="1639000" />
+      <workItem from="1525963700674" duration="1085000" />
+      <workItem from="1526004089798" duration="24541000" />
+      <workItem from="1526034004599" duration="2716000" />
+      <workItem from="1526068215482" duration="5788000" />
+      <workItem from="1526076442662" duration="4449000" />
+      <workItem from="1526084353361" duration="32000" />
+      <workItem from="1526152524951" duration="901000" />
+      <workItem from="1526237326896" duration="2177000" />
+      <workItem from="1526270077671" duration="37000" />
+      <workItem from="1526270398649" duration="13000" />
+      <workItem from="1526276261238" duration="9871000" />
+      <workItem from="1526308311313" duration="120000" />
+      <workItem from="1526309844406" duration="223000" />
+      <workItem from="1526321968567" duration="1791000" />
+      <workItem from="1526344640806" duration="17781000" />
+      <workItem from="1526371639251" duration="1193000" />
+      <workItem from="1526408423516" duration="8588000" />
+      <workItem from="1539380964655" duration="2364000" />
+      <workItem from="1539383355888" duration="1434000" />
+    </task>
+    <task id="LOCAL-00001" summary="Update">
+      <created>1525716615996</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1525716615996</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Update">
+      <created>1539382547603</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1539382547603</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Final Version">
+      <created>1539382846381</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1539382846381</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Final Version.">
+      <created>1539383771466</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1539383771466</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="396271000" />
+  </component>
+  <component name="TodoView" selected-index="4">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info anchor="right" id="Remote Host" order="3" />
+      <window_info active="true" anchor="bottom" id="SVN Repositories" visible="true" weight="0.3286517" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22751679" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3286517" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" weight="0.3297414" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.30818966" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.4698276" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" weight="0.3296" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3297414" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.3286517" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Update" />
+    <MESSAGE value="Final Version" />
+    <MESSAGE value="Final Version." />
+    <option name="LAST_COMMIT_MESSAGE" value="Final Version." />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="12" />
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1938">
+          <caret line="114" column="22" lean-forward="true" selection-start-line="114" selection-start-column="22" selection-end-line="114" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="43" column="100" selection-start-line="43" selection-start-column="89" selection-end-line="43" selection-end-column="100" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/model.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" column="2" lean-forward="true" selection-start-line="26" selection-start-column="2" selection-end-line="26" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/script.js" />
+    <entry file="file://$PROJECT_DIR$/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4998">
+          <caret line="294" lean-forward="true" selection-start-line="294" selection-end-line="294" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3026">
+          <caret line="178" selection-start-line="178" selection-end-line="178" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/script.js" />
+    <entry file="file://$PROJECT_DIR$/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4148">
+          <caret line="244" column="1" selection-start-line="244" selection-start-column="1" selection-end-line="244" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2618">
+          <caret line="154" column="75" selection-start-line="154" selection-start-column="75" selection-end-line="154" selection-end-column="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/script.js" />
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1088">
+          <caret line="149" column="37" selection-start-line="149" selection-start-column="37" selection-end-line="149" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4046">
+          <caret line="238" column="19" selection-start-line="238" selection-start-column="19" selection-end-line="238" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="748">
+          <caret line="80" column="82" lean-forward="true" selection-start-line="80" selection-start-column="28" selection-end-line="80" selection-end-column="82" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/circleTextAnimation.css" />
+    <entry file="file://$PROJECT_DIR$/js/script.js" />
+    <entry file="file://$PROJECT_DIR$/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1377">
+          <caret line="81" column="18" lean-forward="true" selection-start-line="79" selection-start-column="20" selection-end-line="81" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1326">
+          <caret line="78" column="30" selection-start-line="78" selection-start-column="24" selection-end-line="78" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1887">
+          <caret line="111" column="19" selection-start-line="111" selection-start-column="19" selection-end-line="111" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/script.js" />
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="32" column="10" selection-start-line="14" selection-start-column="4" selection-end-line="32" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/audioPlayer.css" />
+    <entry file="file://$PROJECT_DIR$/js/script.js" />
+    <entry file="file://$PROJECT_DIR$/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="28" column="23" selection-start-line="28" selection-start-column="23" selection-end-line="28" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/audioPlayer.js" />
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="32" column="10" selection-start-line="14" selection-start-column="4" selection-end-line="32" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/audioPlayer.css" />
+    <entry file="file://$PROJECT_DIR$/js/script.js" />
+    <entry file="file://$PROJECT_DIR$/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="28" column="23" selection-start-line="28" selection-start-column="23" selection-end-line="28" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/audioPlayer.js" />
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="36" column="20" selection-start-line="36" selection-start-column="20" selection-end-line="36" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/script.js" />
+    <entry file="file://$PROJECT_DIR$/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="901">
+          <caret line="53" column="17" selection-start-line="53" selection-start-column="17" selection-end-line="53" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/audioPlayer.css" />
+    <entry file="file://$PROJECT_DIR$/api/playlist.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1338" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/jquery.rainbow.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="1" column="7" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/validation.js" />
+    <entry file="file://$PROJECT_DIR$/js/validations.js" />
+    <entry file="file://$PROJECT_DIR$/js/audioPlayer2.js" />
+    <entry file="file://$PROJECT_DIR$/js/script.js" />
+    <entry file="file://$PROJECT_DIR$/js/player.js" />
+    <entry file="file://$PROJECT_DIR$/js/album.js" />
+    <entry file="file://$PROJECT_DIR$/js/list2.js" />
+    <entry file="file://$PROJECT_DIR$/readme.md" />
+    <entry file="file://$PROJECT_DIR$/js/view.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="754">
+          <caret line="70" column="4" selection-start-line="70" selection-start-column="4" selection-end-line="70" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/model.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="192" column="1" lean-forward="true" selection-start-line="192" selection-start-column="1" selection-end-line="192" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/circleTextAnimation.css" />
+    <entry file="file://$PROJECT_DIR$/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="8352">
+          <caret line="348" selection-start-line="348" selection-end-line="348" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/controller.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="25" column="88" selection-start-line="24" selection-start-column="11" selection-end-line="25" selection-end-column="88" />
+          <folding>
+            <element signature="n#!!doc;n#constructor#0;n#Controller#0" />
+            <element signature="e#392#579#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/list.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="680">
+          <caret line="252" column="42" selection-start-line="252" selection-start-column="42" selection-end-line="252" selection-end-column="42" />
+          <folding>
+            <element signature="n#!!doc;n#constructor#0;n#List#0" />
+            <element signature="n#!!block;n#constructor#0;n#List#0" />
+            <element signature="n#!!doc;n#addAlbumToList#0;n#List#0" />
+            <element signature="n#!!block;n#addAlbumToList#0;n#List#0" />
+            <element signature="n#!!doc;n#getAlbumByID#0;n#List#0" />
+            <element signature="n#!!block;n#getAlbumByID#0;n#List#0" />
+            <element signature="n#!!doc;n#deleteAlbumFromList#0;n#List#0" />
+            <element signature="n#!!block;n#deleteAlbumFromList#0;n#List#0" />
+            <element signature="n#!!doc;n#editAlbumById#0;n#List#0" />
+            <element signature="n#!!block;n#editAlbumById#0;n#List#0" />
+            <element signature="n#!!doc;n#addToListFromAPI#0;n#List#0" />
+            <element signature="n#!!block;n#addToListFromAPI#0;n#List#0" />
+            <element signature="n#!!doc;n#dumpAlbum#0;n#List#0" />
+            <element signature="n#!!block;n#dumpAlbum#0;n#List#0" />
+            <element signature="n#!!doc;n#dumpInputNameAndImageURL#0;n#List#0" />
+            <element signature="n#!!block;n#dumpInputNameAndImageURL#0;n#List#0" />
+            <element signature="n#!!doc;n#createNewAlbum#0;n#List#0" />
+            <element signature="n#!!block;n#createNewAlbum#0;n#List#0" />
+            <element signature="n#!!doc;n#finder#0;n#List#0" />
+            <element signature="n#!!block;n#finder#0;n#List#0" />
+            <element signature="n#!!doc;n#loadPlayer#0;n#List#0" />
+            <element signature="n#!!block;n#loadPlayer#0;n#List#0" />
+            <element signature="n#!!doc;n#loadSongListToPlayerAndPlaySong#0;n#List#0" />
+            <element signature="n#!!block;n#loadSongListToPlayerAndPlaySong#0;n#List#0" />
+            <element signature="e#19#25#1" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1972">
+          <caret line="116" column="29" selection-start-line="116" selection-start-column="29" selection-end-line="116" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/editor.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="334" column="37" lean-forward="true" selection-start-line="334" selection-start-column="37" selection-end-line="334" selection-end-column="37" />
+          <folding>
+            <element signature="n#!!doc;n#constructor#0;n#Editor#0" />
+            <element signature="n#!!block;n#constructor#0;n#Editor#0" />
+            <element signature="e#325#416#0" />
+            <element signature="e#473#534#0" />
+            <element signature="e#574#686#0" />
+            <element signature="e#735#798#0" />
+            <element signature="e#864#979#0" />
+            <element signature="e#1020#1084#0" />
+            <element signature="e#1152#1279#0" />
+            <element signature="e#1348#1421#0" />
+            <element signature="n#!!doc;n#createEditAlbum#0;n#Editor#0" />
+            <element signature="n#!!block;n#createEditAlbum#0;n#Editor#0" />
+            <element signature="n#!!doc;n#createSongURLAndNamesAssociativeArray#0;n#Editor#0" />
+            <element signature="n#!!block;n#createSongURLAndNamesAssociativeArray#0;n#Editor#0" />
+            <element signature="n#!!doc;n#validatePlayListNameAndImageURL#0;n#Editor#0" />
+            <element signature="n#!!block;n#validatePlayListNameAndImageURL#0;n#Editor#0" />
+            <element signature="n#!!doc;n#createSongsURLAndNames#0;n#Editor#0" />
+            <element signature="n#!!block;n#createSongsURLAndNames#0;n#Editor#0" />
+            <element signature="n#!!doc;n#validateInputName#0;n#Editor#0" />
+            <element signature="n#!!block;n#validateInputName#0;n#Editor#0" />
+            <element signature="n#!!doc;n#validateImageURL#0;n#Editor#0" />
+            <element signature="n#!!block;n#validateImageURL#0;n#Editor#0" />
+            <element signature="n#!!doc;n#validateMP3URL#0;n#Editor#0" />
+            <element signature="n#!!block;n#validateMP3URL#0;n#Editor#0" />
+            <element signature="n#!!doc;n#validateInputImageURL#0;n#Editor#0" />
+            <element signature="n#!!doc;n#checkAllSongURLAndNamesInputs#0;n#Editor#0" />
+            <element signature="n#!!block;n#checkAllSongURLAndNamesInputs#0;n#Editor#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
