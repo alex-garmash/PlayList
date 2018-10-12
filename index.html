@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <title>My Awesome Player</title>
+    <link rel="icon" type="image/png" href="favicon.png">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/materialdesignbootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div class="container-fluid">
+    <!-- Header site -->
+    <div class="row">
+        <div class="top">
+            <div class="addNewList col-md-2">
+                <button type="button" class="addEditPlayListModal btn btn-default">
+                    <i class="fa fa-plus"></i></button>
+                <span>Add new album</span>
+            </div>
+            <div class="search search-form col-md-4 col-md-offset-3">
+                <div class="form-group has-feedback">
+                    <label class="sr-only">Search</label>
+                    <input type="text" name="text" class="inputSearch form-control" placeholder="search">
+                    <span class="fa fa-search form-control-feedback"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Player -->
+    <div class="row">
+        <div class="col-md-12">
+            <div class="audioplayer">
+                <div class="player col-md-offset-4">
+                    <div class="playerCtr">
+                        <div class="imgSong">
+                            <img src="img/disk.png">
+                            <i class="iconPlay fa " aria-hidden="true"></i>
+                        </div>
+                        <div class="playerCtrRight">
+                            <div class="nowPlaying">
+                                <p class="runningText runningTextAnimation">Now Playing: </p>
+                            </div>
+                            <audio controls controlsList="nodownload">
+                                <source src="" type="audio/ogg">
+                                <source src="" type="audio/mp4">
+                                Your browser does not support the audio element.
+                            </audio>
+                            <ul></ul>
+                        </div>
+                        <div class="buttonsAction">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="list">
+                    <ul></ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal 1-->
+<div class="modal fade" id="addEditPlayListModal" data-id="">
+    <div class="modalCtr">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                    <h3 class="modal-title"><i class="fa fa-music" aria-hidden="true"></i>
+                        <span>Add New Playlist Songs</span></h3>
+                </div>
+                <div class="modal-body">
+                    <div class="group-form">
+                        <div class="group-form">
+                            <label>Playlist Name</label>
+                            <input type="text" class="inputName" placeholder="Enter Playlist Name">
+                        </div>
+                        <div class="group-form">
+                            <label>Image URL</label>
+                            <input type="text" class="inputImageURL" placeholder="Enter Playlist Image URL">
+                        </div>
+                        <div>
+                            <span class="errorImageMessage"></span>
+                        </div>
+                        <div>
+                            <span class="errorMessage"></span>
+                        </div>
+                    </div>
+                    <img src="img/NoImagePreview.png">
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default addEditPlaylist">Next</button>
+                    <button type="button" class="btn btn-danger resetFieldsNameImageURL">Reset Fields</button>
+                    <button type="button" class="closeModal btn btn-secondary">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal 2-->
+<div class="modal fade" id="playlistSongs" tabindex="-1" role="dialog" aria-hidden="true" data-id="">
+    <div class="modalCtr">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                    <h3 class="modal-title"><i class="fa fa-music" aria-hidden="true"></i>
+                        <span>Add New Playlist Songs</span></h3>
+                </div>
+                <div class="modal-body form-inline">
+                    <div class="labelSongsURLName">
+                        <h3 class="modal-title"><label class="col-form-label"><i class="fa fa-music"
+                                                                                 aria-hidden="true"></i> Song
+                            URL</label></h3>
+                        <h3 class="modal-title"><label class="col-form-label"><i class="fa fa-user"
+                                                                                 aria-hidden="true"></i> Name</label>
+                        </h3>
+                    </div>
+                    <div class="inputsSongs"></div>
+                </div>
+                <div>
+                    <span class="errorMessageListSong"></span>
+                </div>
+                <div>
+                    <button type="button" class="btn btn-default btnPlus">+</button>
+                    <span>Add Another Song</span>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-deep-orange btnBackToAlbum">Back</button>
+                    <button type="button" class="btn btn-default btnAddNewAlbum">Finish & Save</button>
+                    <button type="button" class="btn btn-danger cleanFieldsAllSongURLAndNamesInputs">Reset Fields
+                    </button>
+                    <button type="button" class="closeModal2 btn btn-secondary">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal 3-->
+<div class="modal fade" id="deleteAlbum" tabindex="-1" role="dialog" aria-hidden="true" data-id="">
+    <div class="modalCtr">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                    <h3 class="modal-title">Are you sure???</h3>
+                </div>
+
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-danger btnDeleteAlbum">Yes</button>
+                    <button type="button" class="closeModal3 btn btn-default closeModal3">No</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/jquery.rainbow.min.js"></script>
+<script src="js/jquery.arctext.js"></script>
+<script src="js/controller.js"></script>
+<script src="js/view.js"></script>
+<script src="js/list.js"></script>
+<script src="js/editor.js"></script>
+<script src="js/model.js"></script>
+
+
+<script>
+    $(function () {
+        new Controller();
+    });
+</script>
+</body>
+</html>

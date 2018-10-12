@@ -1,0 +1,387 @@
+@import url(https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.4.3/css/mdb.min.css);
+*,p{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    text-align:center;
+    font-size: 24px;
+}
+h3{
+    color: #0d5bdd;
+}
+.list > ul{
+    margin-top: 53px;
+}
+li{
+    list-style-type: none;
+}
+.list{
+    z-index: -1;
+    display: flex;
+    flex-wrap: wrap;
+    overflow: hidden;
+}
+.list ul li{
+    display: inline-block;
+    margin: 10px;
+}
+.list ul li:hover{
+    cursor: pointer;
+}
+.container-fluid {
+    padding-right: 30px;
+}
+
+.top{
+    /*height: 80px;*/
+    z-index: 2;
+    width: 100vw;
+    position: fixed;
+    display: flex;
+    justify-content: space-around;
+    background-color: #90a4ae;
+    align-items: center;
+}
+
+/** Search **/
+
+.search-form{
+    margin-top: 0;
+}
+.form-group{
+    margin-bottom: 0;
+}
+input[name=text]{
+    line-height: 48px;
+    height: 48px;
+    color: white;
+}
+
+input[name=text]:hover{
+    color: black;
+    font-size: 34px;
+}
+.search-form .form-group {
+    float: right !important;
+    transition: all 0.35s, border-radius 0s;
+    width: 52px;
+    height: 52px;
+    background-color: #fff;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset;
+    border-radius: 25px;
+    border: 1px solid #ccc;
+}
+.search-form .form-group input.form-control {
+    padding-right: 20px;
+    border: 0 none;
+    background: transparent;
+    box-shadow: none;
+    display:block;
+}
+.search-form .form-group input.form-control::placeholder {
+    display: none;
+}
+.search-form .form-group:hover,
+.search-form .form-group.hover {
+    width: 100%;
+    border-radius: 4px 25px 25px 4px;
+}
+.search-form .form-group span.form-control-feedback {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 2;
+    display: block;
+    width: 50px;
+    height: 48px;
+    line-height: 48px;
+    text-align: center;
+    color: #3596e0;
+    left: initial;
+    font-size: 34px;
+}
+
+/** playlist **/
+
+.songCtr{
+    cursor: auto;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    opacity: 0.85;
+    height: 250px;
+    width: 250px;
+}
+
+.songCtr:hover{
+    opacity: 1 !important;
+}
+.songCtr img{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+.songCtr img:hover{
+    animation: animatedImage 20s infinite linear;
+}
+.imgSong i{
+    position: absolute;
+    top: 38%;
+    left: 15%;
+    font-size: 60px;
+    color: black;
+}
+.songCtr .fa-play-circle-o{
+    display: none;
+    position: absolute;
+    top: 42%;
+    left: 40%;
+    /*right: 50%;*/
+    /*bottom: 50%;*/
+    font-size: 60px;
+}
+.songCtr .fa-pencil{
+    display: none;
+    position: absolute;
+    top: 18%;
+    left: 36%;
+    color: blue;
+    font-size: 20px;
+}
+.songCtr .fa-remove{
+    display: none;
+    position: absolute;
+    top: 18%;
+    left: 54%;
+    color: red;
+    font-size: 20px;
+}
+.songCtr:hover i{
+    display: block;
+    cursor: pointer;
+}
+
+
+/** Player **/
+.audioplayer{
+    display: none;
+    margin-bottom: 251px;
+}
+.player{
+    z-index: 2;
+    position: fixed;
+    background-color: #402457;
+    height: 250px;
+    width: 600px;
+    margin-top: 53px;
+    border-radius: 100px;
+}
+.playerCtr{
+    display: flex;
+    /*justify-content: space-around;*/
+    padding-left: 15px;
+}
+.playerCtr ul{
+    height: 150px;
+    overflow-y: scroll;
+}
+.player ul li{
+    color: white;
+}
+.player ul li:hover{
+    cursor: pointer;
+    background: #9200FF;
+    color: #FFED85;
+}
+.playerCtrRight {
+    margin-left: 10px;
+}
+/*.modalShow{*/
+    /*display:block !important;*/
+/*}*/
+.playerCtr img{
+    margin-top: 20px;
+    float: left;
+    height: 210px;
+    width: 210px;
+    border-radius: 50%;
+}
+.playing{
+    background: #9c27b0;
+}
+.nowPlaying{
+    margin-top: 5px;
+    width: 300px;
+    height:31px;
+    /*line-height: 50px;*/
+    padding-right: 10px;
+    overflow: hidden;
+    color: whitesmoke;
+}
+.nowPlaying p {
+    height: 50px;
+    width: 600px;
+
+}
+
+.buttonsAction{
+    height: 215px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 20px;
+}
+.buttonsAction i:first-child{
+    margin-top: 50px;
+}
+.buttonsAction i{
+    margin: 8px 0;
+    color: white;
+}
+.buttonsAction i:hover{
+    cursor: pointer;
+    color: #FFED85;
+}
+.playerCtr .fa-trash:hover{
+    color:red;
+}
+.playerCtr .fa-pencil:hover{
+    color:blue;
+}
+audio{
+    /*margin-top: 50px;*/
+    color: black;
+}
+
+
+/** Modal **/
+.modal button{
+    font-size: 10px;
+}
+#addEditPlayListModal .modal-body{
+    display: flex;
+    /*justify-content: space-around;*/
+}
+#playlistSongs .modal-content{
+    position: relative;
+}
+#playlistSongs .inputsSongs{
+    width: 100%;
+    height: 100%;
+}
+#playlistSongs input[type=text]{
+    float: left;
+    top: 0;
+    left: 0;
+    width: 46%;
+    margin: 0 3px;
+    height: 30px;
+}
+#playlistSongs .fa-times{
+    font-size: 30px;
+    line-height: 30px;
+    color: red;
+}
+#playlistSongs .fa-times:hover{
+    cursor: pointer;
+}
+
+.modal-body .labelSongsURLName {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+.modal-body label{
+    margin-top: 15px;
+    color: #0d5bdd;
+}
+.modal-body input[type=text]{
+    font-size: 20px;
+}
+.modal-body img{
+    float: right;
+    top: 0;
+    right: 0;
+    margin-left: 20px;
+    height: 300px;
+    width: 300px;
+}
+.modal-body input[type=text]{
+    border: 1px solid #0d5bdd;
+    font-size: 20px;
+    /*width: 100%;*/
+    display: block;
+    box-sizing: border-box;
+    padding: 10px 15px;
+    border-radius: 60px;
+    color: black;
+    letter-spacing: 0.01em;
+    position: relative;
+    font-weight: bold;
+}
+.modalCtr{
+    height: 100%;
+    width: 100%;
+}
+#deleteAlbum .modal-footer{
+    text-align: center;
+}
+.modal-footer button{
+    margin: 0;
+}
+
+a:active {
+    background: #880e4f;
+}
+
+.arcText{
+    font-size: 20px;
+}
+.opacity1{
+    opacity: 1;
+}
+#playlistSongs .modal-body .form-group div{
+    display: inline-block;
+}
+
+.group-form{
+    margin:10px 0;
+}
+
+.errorMessage, .errorMessageListSong, .errorImageMessage{
+    color: red;
+}
+
+/** animations **/
+.animatedImage{
+    animation: animatedImage 20s infinite linear;
+}
+
+.red{
+    color:black;
+    animation: animateBackgroundColorRed 1s infinite linear;
+}
+.runningTextAnimation{
+    animation:  runningText 10s infinite linear;
+}
+
+@keyframes animatedImage {
+    0%{
+        transform: rotate(360deg);
+    }
+    100%{
+        transform: rotate(0deg);
+    }
+}
+@keyframes animateBackgroundColorRed {
+    0%   {background: red;}
+    100% {background: white;}
+}
+
+@keyframes runningText {
+    0%   {transform: translateX(100%);}
+    100% {transform: translateX(-100%);}
+}
