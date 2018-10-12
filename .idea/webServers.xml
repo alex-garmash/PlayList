@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="05b3ccd6-fb56-4e26-bae7-c5a83d0121e9" name="playlist" url="http://localhost:80/playlist">
+        <fileTransfer port="0" mountedRoot="E:\PhpstormProjects\playlist" accessType="MOUNT" />
+      </webServer>
+    </option>
+  </component>
+</project>
